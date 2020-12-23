@@ -1,0 +1,19 @@
+---
+title: "ELISAaPB"
+author: "Kathryn Walters"
+date: "12/23/2020"
+output: html_document
+---
+
+```{r setup, include=TRUE, echo=TRUE }
+
+library(drc) # modeling tools
+library(tidyverse) # your go to set of functions for messing w/data
+library(RColorBrewer) # to make color schemes
+#library(ggpubr) # publication quality ggplots ha ha ha
+library(ggthemes) # additional themes for ggplot-ing
+library(gridExtra) # allows arranging of plots (rows/columns...)
+library(splitstackshape)
+library(ggpubr)
+```
+
